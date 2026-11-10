@@ -1,185 +1,201 @@
-# Figure 1 — Freezing tolerance and transcriptome responses to dawn and dusk cold onset in sorghum
+# Figure 2 — A frozen diurnal clock explains part of the sorghum cold response
 
-This folder holds everything used to make Figure 1: the code, the input data, the exact
-data plotted in each panel, and the finished figure.
+This folder holds everything used to make Figure 2: the code, the input data, the exact
+numbers plotted in each panel, and the finished figure.
 
-![Figure 1](Figure1.png)
+![Figure 2](Figure2.png)
 
-| File | What it is |
+| File or folder | What it is |
 |---|---|
-| `Figure1.png` | Final figure, 2600 × 3100 px (6.5 × 7.75 in, 400 dpi) |
-| `Figure1.svg` | Final figure, editable vector version (text kept as text, font Arial) |
-| `Figure1_legend.md` | Full figure legend |
-| `panels/` | Each panel as a separate PNG and SVG |
-| `code/` | Python scripts that build the panel data and draw the panels |
-| `code/R/deseq2_timepoint_contrasts.R` | R script for the DESeq2 differential-expression analysis that makes the DEG table |
-| `data/source/` | Input tables, with `SHA256SUMS.txt` |
-| `data/panel_*/` | The exact numbers plotted in each panel |
-| `earlier_versions/Figure1_handedited_scatter_IJ.svg` | Hand-arranged layout that the final assembly step builds on (see *How the final figure is assembled*) |
-| `requirements.txt` | Python package versions |
+| `Figure2.png` | Final figure, 1950 × 2070 px (6.5 × 6.9 in, 300 dpi) |
+| `Figure2.svg` | Final figure, editable vector version |
+| `panels/Figure2A.png` … `Figure2E.png` | Each panel on its own |
+| `results/panel_A/` … `panel_E/` | The numbers plotted in each panel (see *Results, panel by panel*) |
+| `results/run_summary.txt` | Gene universe size and R version of the last run |
+| `code/` | All code: the figure script, its two helper scripts, and the four upstream steps that make its inputs |
+| `data/` | All input data, with `SHA256SUMS.txt` |
+| `requirements.txt` | Software versions |
 
-## Panels
+## The idea
 
-| Panel | Shows | Code | Plotted data |
-|---|---|---|---|
-| A | Dawn onset: control vs cold day 1, relative freezing injury and LT50 inset | `panel_A_B_freezing.py` | `data/panel_A/` |
-| B | Dusk onset: control vs cold day 1, relative freezing injury and LT50 inset | `panel_A_B_freezing.py` | `data/panel_B/` |
-| C | Dawn vs Control: transitions of all 22,588 tested genes between Up, Not DEG and Down | `panel_C_D_alluvial.py` | `data/panel_C/` |
-| D | Dusk vs Control: same, for dusk onset | `panel_C_D_alluvial.py` | `data/panel_D/` |
-| E | Numbers of up- and downregulated DEGs at matched durations of cold | `panel_E_deg_counts.py` | `data/panel_E/` |
-| F | Expression-controlled overlap of same-direction Dawn and Dusk DEGs, log2(observed/expected) | `panel_F_overlap.py` | `data/panel_F/` |
-| G | log2(Dawn/Control) vs log2(Dusk/Control) for every tested gene, 11 h after onset | `panel_G_H_gene_scatter.py` | `data/panel_G/` |
-| H | Same, 15 h after onset | `panel_G_H_gene_scatter.py` | `data/panel_H/` |
-| I | Percent of genes in three GO terms that are up or down DEGs, 11 h (left) and 15 h (right) after onset | `panel_I_J_bars.py` | `data/panel_I_J/` |
+If cold stops the circadian clock, a cold-treated leaf stays at the diurnal state it had
+when cold began. Its time-matched control keeps cycling. The expected cold response of each
+gene is then its diurnal expression at cold onset minus its diurnal expression at the
+control's collection time. This "fixed onset-hold" prediction comes entirely from an
+independent diurnal time series, with no fitting to the cold data.
 
-Panel I contains both time points as two side-by-side bar charts. The code and data call
-these I (11 h) and J (15 h).
+- **Cold onset:** dawn at ZT1, dusk at ZT13. Dusk cold began 12 h after dawn cold, so a
+  dusk sample *h* hours after onset was collected at wall-clock T(*h* + 12).
+- **Genes:** 15,130. These have a mean TPM ≥ 3 in the external diurnal series and were
+  tested by DESeq2.
+- **Response:** log2(TPM + 0.1) of each cold library minus its time-matched control in the
+  same growth trial. There are three growth trials.
 
-## Input data (`data/source/`)
+## Results, panel by panel
 
-| File | Used for | Contents |
-|---|---|---|
-| `kallisto_counts_filtered.csv.gz` | DESeq2 | kallisto gene-level read counts, 22,589 genes × 75 libraries (`GeneID` + one column per sample; 72 are used); input to `code/R/deseq2_timepoint_contrasts.R` |
-| `sorghum_cold_timecourse_sample_metadata.csv` | DESeq2 | One row per library: sample name, species, time, treatment (CONT, DAWN, DUSK), replicate, collection time; columns in the same order as the count table |
-| `Ion_leakage_relative_injury_summary_v2.xlsx` | A, B | Ion-leakage measurements and relative injury for every sample. Panels A and B use the `D1 Sorg dawn ctl v cold1` and `D1 Sorg dusk ctl v cold1` tabs (sorghum, cold day 1). |
-| `deseq2_timepoint_contrasts.csv.gz` | C, D, E (check), G, H | DESeq2 result of every tested gene for each cold-vs-control contrast: `gene_id, treatment, time_h, contrast, base_mean, log2_fold_change, fold_change, lfc_se, wald_statistic, p_value, adjusted_p_value, de_status`. DEG = \|log2FC\| ≥ 1 and BH-adjusted P < 0.05. |
-| `dawndusk_overlap_summary.csv` | E, F | DEG counts and observed/expected overlap of Dawn and Dusk DEGs at each matched duration (whole-transcriptome and expression-dodecile expectations). |
-| `go_enrichment_timepoint_contrasts.tsv.gz` | I | GO enrichment (Fisher's exact test, GOATOOLS, tested-gene background, BH within each contrast and direction) of the DEGs of each contrast. |
+### A — Predicted vs observed response, 11 h after dusk onset
 
-Check the files with `cd data/source && sha256sum -c SHA256SUMS.txt`.
+Each point is one gene. The x axis is the fixed onset-hold prediction and the y axis is the
+observed response (log2 cold/control, mean of three trials). The line is the least-squares
+fit.
 
-## Differential expression (DESeq2)
-
-`code/R/deseq2_timepoint_contrasts.R` makes `data/source/deseq2_timepoint_contrasts.csv.gz`
-from the count table and sample metadata.
-
-- **Libraries:** 72, three per time × treatment group, one from each of three growth
-  trials. The groups are Dawn at T3–T27, Dusk at T15–T39, and the controls at those times.
-- **Model:** one DESeq2 fit, `~ growth_trial_date + group`. Growth trial is a blocking
-  factor, and each time × treatment combination is one level of `group`.
-- **Contrasts:** 14, each cold group against the control at the same time point
-  (Dawn T3–T27, Dusk T15–T39).
-- **DEG:** BH-adjusted P < 0.05 and |log2 fold change| ≥ 1. Independent filtering is off.
-- **Genes:** 22,588 tested. One gene that does not converge, Sobic.004G220500.1, is
-  excluded, and the script stops if any other gene fails to converge.
-
-Run it with:
-
-    Rscript code/R/deseq2_timepoint_contrasts.R
-
-It takes about 1–2 minutes and needs R ≥ 4.3 with DESeq2 (built with R 4.3.1 and DESeq2
-1.42.1). The output goes to `data/deseq2_output/`, not over the committed table. A rerun
-gives the same Up / Not DEG / Down call for all 316,232 gene × contrast rows. The numbers
-differ from the committed table only by floating-point noise (≤ 1e-7 in log2 fold change,
-≤ 1e-6 in adjusted P).
-
-Time: "Hours after cold onset" is the same for both treatments. Dusk cold began 12 h after
-dawn cold, so the dusk sample at *h* hours after onset was collected at experiment time
-*h* + 12 (for example, dusk 3 h = T15).
-
-## Plotted data (`data/panel_*/`)
-
-`code/prepare_panel_data.py` writes these from `data/source/`, and the plotting scripts
-read only these files. Each file is the data behind one panel, so the figure can be
-checked or redrawn with any software.
-
-| File | Rows | Columns |
-|---|---|---|
-| `panel_A/`, `panel_B/` `raw_samples.csv` | 200 | Every ion-leakage sample from the workbook tab: group, set, biological replicate, temperature, initial/total/% leakage, baseline, fitted top, **relative injury (%)** |
-| `points_mean_sem.csv` | 20 | Points on the plot: `group, temperature, mean, sem, n` (n = 10) |
-| `curve_fit_parameters.csv` | 2 | Four-parameter logistic fit to each group's pooled samples: `top, bottom, midpoint, k, temp_50pct_injury` |
-| `inset_lt50_per_set.csv` | 10 | LT50 of each experimental set (inset boxes; n = 5 sets per group) |
-| `inset_statistics.csv` | 1 | Inset test: means, SDs, ANOVA F and P, Dunnett statistic and P, significance |
-| `panel_C/`, `panel_D/` `gene_states_all_tested_genes.csv` | 22,588 | Up / Not DEG / Down state of each gene at each time point |
-| `strata_counts.csv` | 21 | Bar heights: genes in each state at each time point |
-| `flow_counts.csv` | 54 | Ribbons: genes moving from each state to each state between consecutive time points |
-| `panel_E/deg_counts_matched_duration.csv` | 14 | Up and down DEG counts for Dawn and Dusk at each duration (3–27 h) |
-| `panel_F/overlap_observed_expected.csv` | 14 | Observed and dodecile-expected overlap, log2(O/E) and BH-adjusted P, for up and down at each duration |
-| `panel_G/`, `panel_H/` `gene_log2fc_and_category.csv` | 22,588 | Each gene's Dawn and Dusk log2FC, adjusted P, DEG status, and colour category |
-| `category_counts.csv` | 6 | Genes per colour category (the four numbers printed in each corner) |
-| `panel_I_J/selected_go_terms.csv` | 24 | For each GO term × time × treatment × direction: term size, DEGs in the term, **percent of term genes that are DEGs** (bar), **percent expected** (black tick), fold enrichment, BH-adjusted P, stars |
-
-`data/panel_I/` and `data/panel_J/` hold the data of an earlier version of I that showed
-all 1,558 GO biological-process terms as a scatter. That version is not in the final
-figure. `assemble_figure1.py` still draws it, so the files are kept.
-
-### Key numbers
-
-| Panel | Value |
+| | |
 |---|---|
-| A | LT50 control −2.22 °C, cold −2.17 °C; P = 0.31 (ns) |
-| B | LT50 control −2.06 °C, cold −2.14 °C; P = 0.046 (*) |
-| C, D | 22,588 genes at every time point; 6,354 (C) and 7,540 (D) never a DEG |
-| G (11 h) | Dawn down/Dusk up 1,723; Dawn up/Dusk down 1,689; both up 653; both down 137 |
-| H (15 h) | Dawn down/Dusk up 1,971; Dawn up/Dusk down 1,817; both up 768; both down 491 |
+| Genes | 15,130 |
+| Pearson r | 0.745 |
+| Fitted line | observed = −0.185 + 0.487 × predicted |
+
+Files: `panelA_gene_points.csv` (`gene_id, predicted_response_log2, observed_response_log2`)
+and `panelA_correlation_and_line.csv`.
+
+### B — Variance explained by the prediction over time
+
+R² is the squared Pearson correlation between the prediction and the observed response
+across all genes, for each treatment and duration.
+
+| Hours after onset | 3 | 7 | 11 | 15 | 19 | 23 | 27 |
+|---|---|---|---|---|---|---|---|
+| Dawn R² | 0.167 | 0.387 | 0.497 | 0.373 | 0.293 | 0.071 | 0.018 |
+| Dusk R² | 0.039 | 0.334 | 0.555 | 0.416 | 0.077 | 0.000 | 0.013 |
+
+The prediction explains up to half of the response at 11 h and almost none of it by
+23–27 h.
+
+Files:
+- `panelB_variance_explained.csv`: `treatment, hours_after_onset, genes, pearson_r,
+  variance_aligned_r_squared`.
+- `panelB_channel_agreement_not_plotted.csv`: R² computed separately for the Dawn+Dusk mean
+  and the Dawn−Dusk contrast. It shows the prediction carries information about the
+  contrast, not the shared response, which is why panel D applies it only to the contrast.
+
+### C — Observed and predicted change of three GO terms
+
+Mean observed change (solid lines with points) and mean prediction (dashed lines) of all
+genes in each GO term, for Dawn (orange) and Dusk (blue).
+
+| GO term | ID | Genes in the universe |
+|---|---|---|
+| photosynthesis, light harvesting | GO:0009765 | 35 |
+| ribosome biogenesis | GO:0042254 | 455 |
+| cellular response to cold | GO:0070417 | 29 |
+
+File: `panelC_go_term_mean_change.csv`, 42 rows (3 terms × 2 treatments × 7 times):
+`go_id, go_name, treatment, hours_after_onset, genes, mean_observed_change,
+mean_fixed_prediction`.
+
+### D — Held-out variance partition
+
+Each bar is how much of the response in a held-out growth trial is predicted. Models are
+fitted on two trials and scored on the third, for each of the three choices, with squared
+errors summed over trials, genes and both onsets. Models are added in turn:
+
+1. **Diurnal:** the fixed prediction applied to the Dawn−Dusk contrast, with one scale
+   fitted on the training trials.
+2. **Shared response:** plus each gene's mean residual response, common to Dawn and Dusk.
+3. **Specific response:** plus each gene's half Dawn−Dusk residual difference.
+
+Each segment is the drop in squared error from adding that term, as a fraction of the
+squared error of predicting no response. **Residual** is what the full model leaves.
+
+| Hours after onset | 3 | 7 | 11 | 15 | 19 | 23 | 27 |
+|---|---|---|---|---|---|---|---|
+| Diurnal | 0.064 | 0.275 | 0.477 | 0.376 | 0.197 | 0.020 | 0.001 |
+| Shared response | 0.028 | 0.154 | 0.158 | 0.139 | 0.557 | 0.587 | 0.609 |
+| Specific response | 0.165 | 0.173 | 0.170 | 0.187 | 0.036 | 0.102 | 0.153 |
+| Residual | 0.744 | 0.398 | 0.195 | 0.299 | 0.209 | 0.291 | 0.237 |
+
+The diurnal term dominates at 7–15 h. The shared cold response takes over from 19 h.
+
+Files:
+- `panelD_variance_partition.csv`: one row per time; the four columns sum to 1.
+- `panelD_held_out_fold_sums_of_squares.csv`: the squared errors of each held-out trial
+  behind the partition, and the fitted diurnal scale.
+
+### E — Induced genes at 27 h
+
+Genes in each residual induction category 27 h after onset, after the external diurnal
+component is removed. Categories come from a joint limma model of the diurnal-adjusted
+responses (`code/generate_diurnal_adjusted_response_table.R`).
+
+| Category | Genes |
+|---|---|
+| Shared | 156 |
+| Dawn-specific | 132 |
+| Dusk-specific | 110 |
+
+File: `panelE_induced_gene_counts.csv`. It also holds the 3-h counts (0 shared, 53
+Dawn-specific, 34 Dusk-specific), which are not plotted (`plotted = FALSE`).
+
+## Code
+
+| Script | Makes | Reads |
+|---|---|---|
+| `code/plot_figure2.R` | The figure, the panels, `results/` | Everything below, through the two helpers |
+| `code/analysis_universe.R` | Helper: gene universe, log2 expression, sample lookup, fixed onset-hold prediction | TPM, metadata, DESeq2 table, external reference |
+| `code/component_aligned_diurnal_model.R` | Helper: fits the diurnal scale to the Dawn−Dusk contrast (panel D) | — |
+| `code/deseq2_timepoint_contrasts.R` | `data/generatable/deseq2_timepoint_contrasts.csv.gz` | read counts, metadata |
+| `code/build_external_diurnal_reference.R` | `data/generatable/external_diurnal_reference.tsv.gz` | external diurnal TPM |
+| `code/generate_diurnal_adjusted_response_table.R` | `data/generatable/diurnal_adjusted_response_categories.csv.gz` | TPM, metadata, DESeq2 table, external reference |
+| `code/prepare_go_tested_sets.py` (+ `_datasets.py`, `_tables.py`) | `data/generatable/go_tested_sets.tsv.gz` | GO associations, GO ontology, DESeq2 table |
+| `code/run_all.sh` | Runs the steps in order | |
+
+What the upstream steps do:
+
+- **DESeq2:** one model, `~ growth_trial_date + group`, on 72 libraries. There are 14
+  contrasts, each cold group against its time-matched control. DEG = BH-adjusted P < 0.05
+  and |log2FC| ≥ 1. The DESeq2 table is also how the gene universe is limited to tested
+  genes.
+- **External diurnal reference:** the independent 24-sample BTx623 diurnal series, sampled
+  every 3 h for three days. For every detected gene, it runs JTK_CYCLE (MetaCycle) and
+  builds an eight-phase waveform: log2 TPM with day offsets removed, averaged at each phase.
+  Rhythmicity is descriptive only and does not select genes.
+- **Response categories:** the external diurnal waveform is removed first. A single joint
+  limma model then separates collection phase in the cold from the 27-h onset-history term,
+  and tests shared, Dawn-specific and Dusk-specific induction as contrasts.
+- **GO gene sets:** GO terms are propagated through `is_a` and `part_of`, kept if they have
+  20–3,000 tested genes, and redundant ancestors are pruned.
+
+## Data (`data/`)
+
+| File | Size | Contents |
+|---|---|---|
+| `provided/sorghum_cold_timecourse_sample_metadata.csv` | 5 KB | One row per library: sample name, time, treatment (CONT, DAWN, DUSK), replicate, collection time |
+| `provided/sorghum_v5.1_go_associations.tsv.gz` | 0.6 MB | GO annotations of sorghum v5.1 genes |
+| `externalsourcerequired/kallisto_tpms.csv.gz` | 3.9 MB | kallisto TPM, 32,160 genes × 75 libraries |
+| `externalsourcerequired/kallisto_counts_filtered.csv.gz` | 2.7 MB | kallisto read counts, 22,589 genes × 75 libraries (DESeq2 input) |
+| `externalsourcerequired/sorghum_2020_diurnal_tpms.csv.gz` | 1.3 MB | Independent BTx623 diurnal series, 24 samples |
+| `externalsourcerequired/go_2026-06-19.obo` | 32 MB | Gene Ontology, release 2026-06-19 |
+| `generatable/deseq2_timepoint_contrasts.csv.gz` | 21 MB | DESeq2 results, 22,588 genes × 14 contrasts |
+| `generatable/external_diurnal_reference.tsv.gz` | 2.4 MB | JTK results and eight-phase waveform of each gene |
+| `generatable/diurnal_adjusted_response_categories.csv.gz` | 5.5 MB | Response category, q values and adjusted responses of each gene at 3 and 27 h |
+| `generatable/go_tested_sets.tsv.gz` | 1.3 MB | Genes in each tested GO term |
+
+`generatable/` files are made by the upstream steps and committed so the figure can be
+redrawn without rerunning them. Check all files with
+`cd data && sha256sum -c SHA256SUMS.txt`.
 
 ## Rebuilding
 
-Needs Python 3.13 with the packages in `requirements.txt`, plus Inkscape ≥ 1.2 on the
-command line. Text uses Arial if it's installed, otherwise Liberation Sans (same letter
-widths).
+    bash code/run_all.sh          # redraw from the committed data, about 15 s
+    bash code/run_all.sh --all    # rerun every upstream step first (overwrites data/generatable/)
 
-    pip install -r requirements.txt
-    bash code/run_all.sh
+Works from any directory, including paths with spaces.
 
-`run_all.sh` runs, in order:
+**Checked:**
+- `code/plot_figure2.R` reproduces `Figure2.png` pixel for pixel.
+- `prepare_go_tested_sets.py` reproduces `go_tested_sets.tsv.gz` exactly (2,402 terms).
+- The DESeq2 step, rerun from the same counts, gives the same Up / Not DEG / Down call for
+  all 316,232 gene × contrast rows; the numbers differ by ≤ 1e-6.
 
-1. `prepare_panel_data.py`: builds `data/panel_*/` from `data/source/` and **stops if any
-   check fails**. The checks: LT50 fits match the workbook within 0.002 °C; strata and
-   flows sum to 22,588 at every time point; DEG counts match between the two source
-   tables; the G and H category counts equal the numbers above; one GO row per term,
-   time, treatment and direction, with six starred results.
-2. `panel_*.py`: draw each panel into `panels/`.
-3. `assemble_figure1.py`: code-only full layout (with the earlier scatter version of I),
-   written to `earlier_versions/`.
-4. `insert_I_J_panels.py`: builds `Figure1.svg` and `Figure1.png`.
-
-`figure1_style.py` holds the shared fonts, colours, panel sizes and positions.
-
-## How the final figure is assembled
-
-Panels A–H were arranged by hand in Inkscape. That layout is
-`earlier_versions/Figure1_handedited_scatter_IJ.svg`. `insert_I_J_panels.py` starts from it
-and does the following:
-
-- updates the on-figure labels;
-- swaps in the current panels G and H at their hand-set positions;
-- adds the bar charts of panel I.
-
-Panels A–F come from that saved layout, not from re-drawing. If the data for A–F change,
-redraw the panels and update the layout by hand.
-
-**The committed `Figure1.png` / `Figure1.svg` also have a few final hand edits that
-`run_all.sh` does not reproduce:** the "11 h after onset" and "15 h after onset" titles are
-under the two bar charts of panel I instead of above G/H and above the bars, the second
-bar chart has no separate letter, and the footnote line under panel I (black tick and
-star key) is removed and given in the legend instead. All plotted data are identical.
-Running `run_all.sh` overwrites `Figure1.png` and `Figure1.svg` with the script version,
-so keep a copy of the committed files if you rebuild.
+**Not rerun here:** `build_external_diurnal_reference.R` and
+`generate_diurnal_adjusted_response_table.R`. They pin MetaCycle 1.2.1 and limma 3.68.4
+(R 4.6 / Bioconductor 3.22) and stop with other versions. Their committed outputs are the
+ones the figure uses.
 
 ## Colours
 
-- Dawn: pink (light = up, dark = down). Dusk: green (light = up, dark = down). Used in
-  C, D, E and I.
-- A: dark pink = control, light pink = cold. B: navy = control, teal = cold.
-- F: orange = up, blue = down.
-- G, H: teal = Dawn down/Dusk up, amber = Dawn up/Dusk down, crimson = both up,
-  blue = both down, dark gray = DEG in one treatment only, light gray = not a DEG.
-
-## Notes on the input data
-
-The ion-leakage workbook appears to contain some duplicated rows. These are left as they
-are here:
-
-- dawn control, sets 1 and 3: 16 of 20 rows have identical raw counts (A stays ns if set 3
-  is dropped, P = 0.48);
-- dusk control, sets 4 and 5: 5 of 20 rows identical (dropping set 5 moves B from P = 0.046
-  to P = 0.077, ns);
-- dawn cold day 1, sets 1 and 3: 5 of 20 rows identical.
-
-The LT50 and fit values in the workbook are hardcoded. If these rows are errors, correct
-the workbook and refit.
-
-Of the 32,160 transcripts quantified, 22,588 were tested by DESeq2. The others failed the
-expression filter (TPM ≥ 0.1 in at least 50% of samples), so they have no fold change and
-are not shown.
+- Dawn: orange, Dusk: blue (A–C). Panel A shows the dusk onset.
+- C: solid with points = observed, dashed = predicted.
+- D: green = shared response, orange = specific response, purple = diurnal, gray = residual.
+- E: gold = shared, pink = Dawn-specific, light blue = Dusk-specific. These colours are
+  not used elsewhere in the figure, so the categories aren't read as onsets or model terms.

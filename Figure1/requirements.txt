@@ -1,8 +1,11 @@
-# Python 3.13; versions used to build Figure 1
-numpy==2.3.3
+# Figure 2 software
+
+# R (figure built with R 4.3.1)
+#   Figure:            base graphics only; svglite (2.2.2) for the SVG, optional
+#   DESeq2 step:       DESeq2 1.42.1 (Bioconductor)
+#   Diurnal reference: MetaCycle 1.2.1 (CRAN)        -- pinned, script stops otherwise
+#   Response table:    limma 3.68.4 (Bioconductor 3.22, R 4.6) -- pinned, script stops otherwise
+
+# Python 3 (GO gene sets step only)
 pandas==2.3.2
-scipy==1.16.3
-matplotlib==3.10.6
-openpyxl==3.1.5
-lxml==6.0.2
-# Also needed, not on PyPI: Inkscape >= 1.2 (command line), for the final SVG -> PNG export
+goatools==1.5.2
