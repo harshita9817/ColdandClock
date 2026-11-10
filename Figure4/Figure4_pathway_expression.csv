@@ -1,0 +1,9 @@
+gene_id,enzyme,onset,percent_change
+Sobic.001G472800,myo-inositol-3-phosphate synthase,dawn,-36.05727699720455
+Sobic.001G472800,myo-inositol-3-phosphate synthase,dusk,487.59107890611403
+Sobic.009G048900,inositol monophosphatase,dawn,-49.67907540182733
+Sobic.009G048900,inositol monophosphatase,dusk,512.148177281572
+Sobic.002G423600,galactinol synthase,dawn,1750.7764333364705
+Sobic.002G423600,galactinol synthase,dusk,1833.4317405368704
+Sobic.003G052300,raffinose synthase,dawn,153.22273855962752
+Sobic.003G052300,raffinose synthase,dusk,205.7396211306423
