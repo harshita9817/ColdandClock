@@ -1,0 +1,6 @@
+group,category,genes
+27 h onset,shared_induction,170
+27 h onset,dawn_specific_induction,126
+27 h onset,dusk_specific_induction,133
+3 + 15 h light vs. dark,light_cold_specific_induction,395
+3 + 15 h light vs. dark,dark_cold_specific_induction,157
