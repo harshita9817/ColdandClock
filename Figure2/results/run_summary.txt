@@ -1,3 +1,0 @@
-Analysis universe: 15130 genes
-Dawn-Dusk observed-response correlation at 11 h: -0.6200
-R version: R version 4.3.1 (2023-06-16)
