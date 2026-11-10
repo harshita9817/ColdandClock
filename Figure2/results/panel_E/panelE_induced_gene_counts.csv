@@ -1,0 +1,7 @@
+"hours_after_onset","category","label","genes","plotted"
+3,"shared_induction","Shared",0,FALSE
+3,"dawn_specific_induction","Dawn-specific",53,FALSE
+3,"dusk_specific_induction","Dusk-specific",34,FALSE
+27,"shared_induction","Shared",156,TRUE
+27,"dawn_specific_induction","Dawn-specific",132,TRUE
+27,"dusk_specific_induction","Dusk-specific",110,TRUE
