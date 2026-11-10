@@ -1,0 +1,2 @@
+Paper,#,Comparison tab,Reference group,Compared group,n reference,n compared,Mean LT50 reference (°C),Mean LT50 compared (°C),"Difference (compared − reference, °C)",SD reference,SD compared,ANOVA F,ANOVA p,Dunnett statistic,Dunnett p,Significance,"Pooled-curve 50% injury, reference (°C)","Pooled-curve 50% injury, compared (°C)"
+Day 1 paper,2,D1 Sorg dawn ctl v cold1,Sorghum dawn control,Sorghum dawn cold day 1,5,5,-2.223804955,-2.165704085,0.05810087035,0.084,0.086,1.155,0.3139,1.075,0.3138,ns,-2.215,-2.148

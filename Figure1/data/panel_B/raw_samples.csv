@@ -1,0 +1,201 @@
+Species,Cold timing,Treatment,Group,Set,Biorep,Sample label,Source file,Source tab,Temperature (°C),Initial leakage,Total leakage,% leakage,"Baseline R0 (control, 0 °C)",Fitted Top (%),Relative injury (%),Key
+Sorghum,Dusk,Control,Sorghum dusk control,1,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,0.0,30.0,201.0,14.92537313,13.68278226,83.829,1.771429613,Sorghum|Dusk|Control|1
+Sorghum,Dusk,Control,Sorghum dusk control,1,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,0.0,26.0,209.0,12.44019139,13.68278226,83.829,-1.771429613,Sorghum|Dusk|Control|1
+Sorghum,Dusk,Control,Sorghum dusk control,1,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-1.0,32.0,154.0,20.77922078,13.68278226,83.829,10.11663743,Sorghum|Dusk|Control|1
+Sorghum,Dusk,Control,Sorghum dusk control,1,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-1.0,25.0,140.0,17.85714286,13.68278226,83.829,5.950941805,Sorghum|Dusk|Control|1
+Sorghum,Dusk,Control,Sorghum dusk control,1,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-1.5,31.0,157.0,19.74522293,13.68278226,83.829,8.642576698,Sorghum|Dusk|Control|1
+Sorghum,Dusk,Control,Sorghum dusk control,1,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-1.5,35.0,163.0,21.47239264,13.68278226,83.829,11.1048188,Sorghum|Dusk|Control|1
+Sorghum,Dusk,Control,Sorghum dusk control,1,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-2.0,45.0,150.0,30.0,13.68278226,83.829,23.26172139,Sorghum|Dusk|Control|1
+Sorghum,Dusk,Control,Sorghum dusk control,1,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-2.0,48.0,155.0,30.96774194,13.68278226,83.829,24.64132812,Sorghum|Dusk|Control|1
+Sorghum,Dusk,Control,Sorghum dusk control,1,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-2.2,120.0,156.0,76.92307692,13.68278226,83.829,90.15496017,Sorghum|Dusk|Control|1
+Sorghum,Dusk,Control,Sorghum dusk control,1,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-2.2,125.0,160.0,78.125,13.68278226,83.829,91.86841403,Sorghum|Dusk|Control|1
+Sorghum,Dusk,Control,Sorghum dusk control,1,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-2.5,123.0,159.0,77.35849057,13.68278226,83.829,90.77568308,Sorghum|Dusk|Control|1
+Sorghum,Dusk,Control,Sorghum dusk control,1,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-2.5,106.0,137.0,77.37226277,13.68278226,83.829,90.79531665,Sorghum|Dusk|Control|1
+Sorghum,Dusk,Control,Sorghum dusk control,1,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-2.75,115.0,146.0,78.76712329,13.68278226,83.829,92.78382089,Sorghum|Dusk|Control|1
+Sorghum,Dusk,Control,Sorghum dusk control,1,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-2.75,122.0,143.0,85.31468531,13.68278226,83.829,102.1179835,Sorghum|Dusk|Control|1
+Sorghum,Dusk,Control,Sorghum dusk control,1,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-3.0,133.0,151.0,88.0794702,13.68278226,83.829,106.0594432,Sorghum|Dusk|Control|1
+Sorghum,Dusk,Control,Sorghum dusk control,1,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-3.0,116.0,124.0,93.5483871,13.68278226,83.829,113.8558962,Sorghum|Dusk|Control|1
+Sorghum,Dusk,Control,Sorghum dusk control,1,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-3.5,155.0,178.0,87.07865169,13.68278226,83.829,104.6326827,Sorghum|Dusk|Control|1
+Sorghum,Dusk,Control,Sorghum dusk control,1,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-3.5,124.0,147.0,84.3537415,13.68278226,83.829,100.7480681,Sorghum|Dusk|Control|1
+Sorghum,Dusk,Control,Sorghum dusk control,1,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-4.0,130.0,162.0,80.24691358,13.68278226,83.829,94.89340048,Sorghum|Dusk|Control|1
+Sorghum,Dusk,Control,Sorghum dusk control,1,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-4.0,147.0,171.0,85.96491228,13.68278226,83.829,103.0449429,Sorghum|Dusk|Control|1
+Sorghum,Dusk,Control,Sorghum dusk control,2,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,0.0,32.0,205.0,15.6097561,14.11328926,86.393,2.070382987,Sorghum|Dusk|Control|2
+Sorghum,Dusk,Control,Sorghum dusk control,2,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,0.0,27.0,214.0,12.61682243,14.11328926,86.393,-2.070382987,Sorghum|Dusk|Control|2
+Sorghum,Dusk,Control,Sorghum dusk control,2,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-1.0,25.0,158.0,15.82278481,14.11328926,86.393,2.365111217,Sorghum|Dusk|Control|2
+Sorghum,Dusk,Control,Sorghum dusk control,2,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-1.0,22.0,143.0,15.38461538,14.11328926,86.393,1.758897632,Sorghum|Dusk|Control|2
+Sorghum,Dusk,Control,Sorghum dusk control,2,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-1.5,34.0,160.0,21.25,14.11328926,86.393,9.873740035,Sorghum|Dusk|Control|2
+Sorghum,Dusk,Control,Sorghum dusk control,2,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-1.5,37.0,166.0,22.28915663,14.11328926,86.393,11.3114279,Sorghum|Dusk|Control|2
+Sorghum,Dusk,Control,Sorghum dusk control,2,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-2.0,56.0,153.0,36.60130719,14.11328926,86.393,31.11249021,Sorghum|Dusk|Control|2
+Sorghum,Dusk,Control,Sorghum dusk control,2,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-2.0,62.0,159.0,38.99371069,14.11328926,86.393,34.42241422,Sorghum|Dusk|Control|2
+Sorghum,Dusk,Control,Sorghum dusk control,2,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-2.2,110.0,151.0,72.84768212,14.11328926,86.393,81.25986153,Sorghum|Dusk|Control|2
+Sorghum,Dusk,Control,Sorghum dusk control,2,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-2.2,118.0,156.0,75.64102564,14.11328926,86.393,85.12449171,Sorghum|Dusk|Control|2
+Sorghum,Dusk,Control,Sorghum dusk control,2,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-2.5,125.0,161.0,77.63975155,14.11328926,86.393,87.88975723,Sorghum|Dusk|Control|2
+Sorghum,Dusk,Control,Sorghum dusk control,2,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-2.5,104.0,139.0,74.82014388,14.11328926,86.393,83.98879022,Sorghum|Dusk|Control|2
+Sorghum,Dusk,Control,Sorghum dusk control,2,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-2.75,117.0,148.0,79.05405405,14.11328926,86.393,89.8464647,Sorghum|Dusk|Control|2
+Sorghum,Dusk,Control,Sorghum dusk control,2,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-2.75,124.0,145.0,85.51724138,14.11328926,86.393,98.78837559,Sorghum|Dusk|Control|2
+Sorghum,Dusk,Control,Sorghum dusk control,2,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-3.0,131.0,153.0,85.62091503,14.11328926,86.393,98.93180955,Sorghum|Dusk|Control|2
+Sorghum,Dusk,Control,Sorghum dusk control,2,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-3.0,115.0,126.0,91.26984127,14.11328926,86.393,106.7471787,Sorghum|Dusk|Control|2
+Sorghum,Dusk,Control,Sorghum dusk control,2,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-3.5,152.0,175.0,86.85714286,14.11328926,86.393,100.6421482,Sorghum|Dusk|Control|2
+Sorghum,Dusk,Control,Sorghum dusk control,2,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-3.5,139.0,149.0,93.2885906,14.11328926,86.393,109.5401469,Sorghum|Dusk|Control|2
+Sorghum,Dusk,Control,Sorghum dusk control,2,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-4.0,152.0,165.0,92.12121212,14.11328926,86.393,107.9250623,Sorghum|Dusk|Control|2
+Sorghum,Dusk,Control,Sorghum dusk control,2,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-4.0,164.0,174.0,94.25287356,14.11328926,86.393,110.874246,Sorghum|Dusk|Control|2
+Sorghum,Dusk,Control,Sorghum dusk control,3,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,0.0,38.0,221.0,17.19457014,15.80252524,83.131,2.067542594,Sorghum|Dusk|Control|3
+Sorghum,Dusk,Control,Sorghum dusk control,3,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,0.0,33.0,229.0,14.41048035,15.80252524,83.131,-2.067542594,Sorghum|Dusk|Control|3
+Sorghum,Dusk,Control,Sorghum dusk control,3,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-1.0,29.0,171.0,16.95906433,15.80252524,83.131,1.717756253,Sorghum|Dusk|Control|3
+Sorghum,Dusk,Control,Sorghum dusk control,3,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-1.0,26.0,156.0,16.66666667,15.80252524,83.131,1.283470964,Sorghum|Dusk|Control|3
+Sorghum,Dusk,Control,Sorghum dusk control,3,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-1.5,40.0,174.0,22.98850575,15.80252524,83.131,10.67301841,Sorghum|Dusk|Control|3
+Sorghum,Dusk,Control,Sorghum dusk control,3,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-1.5,44.0,181.0,24.30939227,15.80252524,83.131,12.63487262,Sorghum|Dusk|Control|3
+Sorghum,Dusk,Control,Sorghum dusk control,3,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-2.0,50.0,166.0,30.12048193,15.80252524,83.131,21.26582659,Sorghum|Dusk|Control|3
+Sorghum,Dusk,Control,Sorghum dusk control,3,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-2.0,68.0,173.0,39.30635838,15.80252524,83.131,34.90920183,Sorghum|Dusk|Control|3
+Sorghum,Dusk,Control,Sorghum dusk control,3,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-2.2,122.0,164.0,74.3902439,15.80252524,83.131,87.0177423,Sorghum|Dusk|Control|3
+Sorghum,Dusk,Control,Sorghum dusk control,3,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-2.2,130.0,170.0,76.47058824,15.80252524,83.131,90.10758555,Sorghum|Dusk|Control|3
+Sorghum,Dusk,Control,Sorghum dusk control,3,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-2.5,137.0,176.0,77.84090909,15.80252524,83.131,92.14286239,Sorghum|Dusk|Control|3
+Sorghum,Dusk,Control,Sorghum dusk control,3,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-2.5,115.0,151.0,76.1589404,15.80252524,83.131,89.64470883,Sorghum|Dusk|Control|3
+Sorghum,Dusk,Control,Sorghum dusk control,3,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-2.75,128.0,162.0,79.01234568,15.80252524,83.131,93.88274525,Sorghum|Dusk|Control|3
+Sorghum,Dusk,Control,Sorghum dusk control,3,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-2.75,136.0,158.0,86.07594937,15.80252524,83.131,104.3740028,Sorghum|Dusk|Control|3
+Sorghum,Dusk,Control,Sorghum dusk control,3,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-3.0,143.0,166.0,86.14457831,15.80252524,83.131,104.4759343,Sorghum|Dusk|Control|3
+Sorghum,Dusk,Control,Sorghum dusk control,3,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-3.0,127.0,139.0,91.36690647,15.80252524,83.131,112.2324269,Sorghum|Dusk|Control|3
+Sorghum,Dusk,Control,Sorghum dusk control,3,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-3.5,167.0,195.0,85.64102564,15.80252524,83.131,103.7280299,Sorghum|Dusk|Control|3
+Sorghum,Dusk,Control,Sorghum dusk control,3,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-3.5,138.0,162.0,85.18518519,15.80252524,83.131,103.0509902,Sorghum|Dusk|Control|3
+Sorghum,Dusk,Control,Sorghum dusk control,3,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-4.0,141.0,179.0,78.77094972,15.80252524,83.131,93.52421053,Sorghum|Dusk|Control|3
+Sorghum,Dusk,Control,Sorghum dusk control,3,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-4.0,159.0,188.0,84.57446809,15.80252524,83.131,102.1439192,Sorghum|Dusk|Control|3
+Sorghum,Dusk,Control,Sorghum dusk control,4,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,0.0,41.0,225.0,18.22222222,16.836433,84.363,2.05221335,Sorghum|Dusk|Control|4
+Sorghum,Dusk,Control,Sorghum dusk control,4,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,0.0,36.0,233.0,15.45064378,16.836433,84.363,-2.05221335,Sorghum|Dusk|Control|4
+Sorghum,Dusk,Control,Sorghum dusk control,4,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-1.0,32.0,176.0,18.18181818,16.836433,84.363,1.992379062,Sorghum|Dusk|Control|4
+Sorghum,Dusk,Control,Sorghum dusk control,4,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-1.0,29.0,161.0,18.01242236,16.836433,84.363,1.741521023,Sorghum|Dusk|Control|4
+Sorghum,Dusk,Control,Sorghum dusk control,4,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-1.5,43.0,179.0,24.02234637,16.836433,84.363,10.6416092,Sorghum|Dusk|Control|4
+Sorghum,Dusk,Control,Sorghum dusk control,4,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-1.5,47.0,186.0,25.2688172,16.836433,84.363,12.48750615,Sorghum|Dusk|Control|4
+Sorghum,Dusk,Control,Sorghum dusk control,4,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-2.0,78.0,171.0,45.61403509,16.836433,84.363,42.61671127,Sorghum|Dusk|Control|4
+Sorghum,Dusk,Control,Sorghum dusk control,4,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-2.0,65.0,178.0,36.51685393,16.836433,84.363,29.14470823,Sorghum|Dusk|Control|4
+Sorghum,Dusk,Control,Sorghum dusk control,4,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-2.2,125.0,169.0,73.96449704,16.836433,84.363,84.6008713,Sorghum|Dusk|Control|4
+Sorghum,Dusk,Control,Sorghum dusk control,4,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-2.2,133.0,175.0,76.0,16.836433,84.363,87.61524483,Sorghum|Dusk|Control|4
+Sorghum,Dusk,Control,Sorghum dusk control,4,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-2.5,140.0,181.0,77.3480663,16.836433,84.363,89.61159435,Sorghum|Dusk|Control|4
+Sorghum,Dusk,Control,Sorghum dusk control,4,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-2.5,118.0,156.0,75.64102564,16.836433,84.363,87.08364019,Sorghum|Dusk|Control|4
+Sorghum,Dusk,Control,Sorghum dusk control,4,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-2.75,131.0,167.0,78.44311377,16.836433,84.363,91.23324864,Sorghum|Dusk|Control|4
+Sorghum,Dusk,Control,Sorghum dusk control,4,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-2.75,139.0,163.0,85.27607362,16.836433,84.363,101.3521695,Sorghum|Dusk|Control|4
+Sorghum,Dusk,Control,Sorghum dusk control,4,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-3.0,146.0,171.0,85.38011696,16.836433,84.363,101.5062471,Sorghum|Dusk|Control|4
+Sorghum,Dusk,Control,Sorghum dusk control,4,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-3.0,130.0,144.0,90.27777778,16.836433,84.363,108.7591863,Sorghum|Dusk|Control|4
+Sorghum,Dusk,Control,Sorghum dusk control,4,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-3.5,170.0,200.0,85.0,16.836433,84.363,100.9433324,Sorghum|Dusk|Control|4
+Sorghum,Dusk,Control,Sorghum dusk control,4,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-3.5,141.0,167.0,84.43113772,16.836433,84.363,100.1009051,Sorghum|Dusk|Control|4
+Sorghum,Dusk,Control,Sorghum dusk control,4,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-4.0,165.0,184.0,89.67391304,16.836433,84.363,107.8649238,Sorghum|Dusk|Control|4
+Sorghum,Dusk,Control,Sorghum dusk control,4,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-4.0,180.0,200.0,90.0,16.836433,84.363,108.3478255,Sorghum|Dusk|Control|4
+Sorghum,Dusk,Control,Sorghum dusk control,5,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,0.0,27.0,176.0,15.34090909,15.74498871,92.775,-0.5245742656,Sorghum|Dusk|Control|5
+Sorghum,Dusk,Control,Sorghum dusk control,5,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,0.0,26.0,161.0,16.14906832,15.74498871,92.775,0.5245742656,Sorghum|Dusk|Control|5
+Sorghum,Dusk,Control,Sorghum dusk control,5,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-1.0,41.0,193.0,21.24352332,15.74498871,92.775,7.138171885,Sorghum|Dusk|Control|5
+Sorghum,Dusk,Control,Sorghum dusk control,5,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-1.0,36.0,180.0,20.0,15.74498871,92.775,5.523835738,Sorghum|Dusk|Control|5
+Sorghum,Dusk,Control,Sorghum dusk control,5,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-1.5,43.0,179.0,24.02234637,15.74498871,92.775,10.74562696,Sorghum|Dusk|Control|5
+Sorghum,Dusk,Control,Sorghum dusk control,5,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-1.5,47.0,186.0,25.2688172,15.74498871,92.775,12.36378956,Sorghum|Dusk|Control|5
+Sorghum,Dusk,Control,Sorghum dusk control,5,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-2.0,78.0,169.0,46.15384615,15.74498871,92.775,39.47663636,Sorghum|Dusk|Control|5
+Sorghum,Dusk,Control,Sorghum dusk control,5,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-2.0,65.0,154.0,42.20779221,15.74498871,92.775,34.3538876,Sorghum|Dusk|Control|5
+Sorghum,Dusk,Control,Sorghum dusk control,5,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-2.2,125.0,169.0,73.96449704,15.74498871,92.775,75.58029313,Sorghum|Dusk|Control|5
+Sorghum,Dusk,Control,Sorghum dusk control,5,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-2.2,133.0,175.0,76.0,15.74498871,92.775,78.22277354,Sorghum|Dusk|Control|5
+Sorghum,Dusk,Control,Sorghum dusk control,5,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-2.5,140.0,154.0,90.90909091,15.74498871,92.775,97.57768555,Sorghum|Dusk|Control|5
+Sorghum,Dusk,Control,Sorghum dusk control,5,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-2.5,118.0,136.0,86.76470588,15.74498871,92.775,92.19746432,Sorghum|Dusk|Control|5
+Sorghum,Dusk,Control,Sorghum dusk control,5,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-2.75,131.0,150.0,87.33333333,15.74498871,92.775,92.93565381,Sorghum|Dusk|Control|5
+Sorghum,Dusk,Control,Sorghum dusk control,5,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-2.75,139.0,154.0,90.25974026,15.74498871,92.775,96.73470158,Sorghum|Dusk|Control|5
+Sorghum,Dusk,Control,Sorghum dusk control,5,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-3.0,146.0,153.0,95.4248366,15.74498871,92.775,103.4400055,Sorghum|Dusk|Control|5
+Sorghum,Dusk,Control,Sorghum dusk control,5,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-3.0,130.0,144.0,90.27777778,15.74498871,92.775,96.7581178,Sorghum|Dusk|Control|5
+Sorghum,Dusk,Control,Sorghum dusk control,5,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-3.5,170.0,180.0,94.44444444,15.74498871,92.775,102.167265,Sorghum|Dusk|Control|5
+Sorghum,Dusk,Control,Sorghum dusk control,5,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-3.5,141.0,150.0,94.0,15.74498871,92.775,101.5902893,Sorghum|Dusk|Control|5
+Sorghum,Dusk,Control,Sorghum dusk control,5,1,ctl 1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-4.0,175.0,184.0,95.10869565,15.74498871,92.775,103.0295928,Sorghum|Dusk|Control|5
+Sorghum,Dusk,Control,Sorghum dusk control,5,2,ctl 2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-4.0,194.0,200.0,97.0,15.74498871,92.775,105.4848752,Sorghum|Dusk|Control|5
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,1,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,0.0,24.0,191.0,12.56544503,13.68278226,90.599,-1.452667939,Sorghum|Dusk|Cold day 1|1
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,1,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,0.0,25.0,181.0,13.8121547,13.68278226,90.599,0.168199164,Sorghum|Dusk|Cold day 1|1
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,1,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-1.0,30.0,139.0,21.58273381,13.68278226,90.599,10.27085286,Sorghum|Dusk|Cold day 1|1
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,1,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-1.0,29.0,121.0,23.96694215,13.68278226,90.599,13.3706001,Sorghum|Dusk|Cold day 1|1
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,1,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-1.5,35.0,188.0,18.61702128,13.68278226,90.599,6.415082749,Sorghum|Dusk|Cold day 1|1
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,1,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-1.5,34.0,174.0,19.54022989,13.68278226,90.599,7.615360968,Sorghum|Dusk|Cold day 1|1
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,1,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-2.0,45.0,169.0,26.62721893,13.68278226,90.599,16.82926833,Sorghum|Dusk|Cold day 1|1
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,1,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-2.0,52.0,185.0,28.10810811,13.68278226,90.599,18.75459594,Sorghum|Dusk|Cold day 1|1
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,1,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-2.2,109.0,143.0,76.22377622,13.68278226,90.599,81.31054256,Sorghum|Dusk|Cold day 1|1
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,1,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-2.2,90.0,195.0,46.15384615,13.68278226,90.599,42.21614745,Sorghum|Dusk|Cold day 1|1
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,1,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-2.5,116.0,182.0,63.73626374,13.68278226,90.599,65.07532865,Sorghum|Dusk|Cold day 1|1
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,1,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-2.5,105.0,153.0,68.62745098,13.68278226,90.599,71.4344391,Sorghum|Dusk|Cold day 1|1
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,1,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-2.75,123.0,142.0,86.61971831,13.68278226,90.599,94.82647248,Sorghum|Dusk|Cold day 1|1
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,1,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-2.75,135.0,157.0,85.98726115,13.68278226,90.599,94.00420485,Sorghum|Dusk|Cold day 1|1
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,1,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-3.0,156.0,149.0,104.6979866,13.68278226,90.599,118.3303171,Sorghum|Dusk|Cold day 1|1
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,1,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-3.0,152.0,165.0,92.12121212,13.68278226,90.599,101.9790522,Sorghum|Dusk|Cold day 1|1
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,1,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-3.5,140.0,159.0,88.05031447,13.68278226,90.599,96.68641333,Sorghum|Dusk|Cold day 1|1
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,1,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-3.5,132.0,145.0,91.03448276,13.68278226,90.599,100.5661781,Sorghum|Dusk|Cold day 1|1
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,1,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-4.0,144.0,174.0,82.75862069,13.68278226,90.599,89.80659796,Sorghum|Dusk|Cold day 1|1
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,1,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 1,-4.0,150.0,170.0,88.23529412,13.68278226,90.599,96.92690833,Sorghum|Dusk|Cold day 1|1
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,2,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,0.0,29.0,187.0,15.50802139,14.11328926,80.923,2.087618867,Sorghum|Dusk|Cold day 1|2
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,2,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,0.0,21.0,176.0,11.93181818,14.11328926,80.923,-3.265200609,Sorghum|Dusk|Cold day 1|2
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,2,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-1.0,19.0,145.0,13.10344828,14.11328926,80.923,-1.511518276,Sorghum|Dusk|Cold day 1|2
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,2,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-1.0,17.0,128.0,13.28125,14.11328926,80.923,-1.245386718,Sorghum|Dusk|Cold day 1|2
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,2,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-1.5,28.0,192.0,14.58333333,14.11328926,80.923,0.7035565106,Sorghum|Dusk|Cold day 1|2
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,2,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-1.5,24.0,169.0,14.20118343,14.11328926,80.923,0.1315589714,Sorghum|Dusk|Cold day 1|2
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,2,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-2.0,43.0,173.0,24.85549133,14.11328926,80.923,16.07880344,Sorghum|Dusk|Cold day 1|2
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,2,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-2.0,55.0,181.0,30.38674033,14.11328926,80.923,24.35791278,Sorghum|Dusk|Cold day 1|2
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,2,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-2.2,105.0,147.0,71.42857143,14.11328926,80.923,85.78884945,Sorghum|Dusk|Cold day 1|2
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,2,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-2.2,98.0,152.0,64.47368421,14.11328926,80.923,75.37885495,Sorghum|Dusk|Cold day 1|2
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,2,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-2.5,112.0,152.0,73.68421053,14.11328926,80.923,89.16506389,Sorghum|Dusk|Cold day 1|2
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,2,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-2.5,125.0,156.0,80.12820513,14.11328926,80.923,98.81036026,Sorghum|Dusk|Cold day 1|2
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,2,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-2.75,110.0,145.0,75.86206897,14.11328926,80.923,92.42485714,Sorghum|Dusk|Cold day 1|2
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,2,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-2.75,125.0,161.0,77.63975155,14.11328926,80.923,95.08567181,Sorghum|Dusk|Cold day 1|2
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,2,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-3.0,128.0,162.0,79.01234568,14.11328926,80.923,97.14015478,Sorghum|Dusk|Cold day 1|2
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,2,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-3.0,127.0,168.0,75.5952381,14.11328926,80.923,92.02546779,Sorghum|Dusk|Cold day 1|2
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,2,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-3.5,120.0,143.0,83.91608392,14.11328926,80.923,104.4800133,Sorghum|Dusk|Cold day 1|2
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,2,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-3.5,134.0,152.0,88.15789474,14.11328926,80.923,110.8291065,Sorghum|Dusk|Cold day 1|2
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,2,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-4.0,150.0,170.0,88.23529412,14.11328926,80.923,110.944957,Sorghum|Dusk|Cold day 1|2
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,2,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 2,-4.0,142.0,165.0,86.06060606,14.11328926,80.923,107.6899092,Sorghum|Dusk|Cold day 1|2
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,3,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,0.0,34.0,202.0,16.83168317,15.80252524,86.217,1.461571544,Sorghum|Dusk|Cold day 1|3
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,3,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,0.0,27.0,194.0,13.91752577,15.80252524,86.217,-2.677005652,Sorghum|Dusk|Cold day 1|3
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,3,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-1.0,24.0,163.0,14.72392638,15.80252524,86.217,-1.53178571,Sorghum|Dusk|Cold day 1|3
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,3,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-1.0,22.0,148.0,14.86486486,15.80252524,86.217,-1.331630153,Sorghum|Dusk|Cold day 1|3
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,3,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-1.5,33.0,172.0,19.18604651,15.80252524,86.217,4.805150192,Sorghum|Dusk|Cold day 1|3
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,3,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-1.5,30.0,165.0,18.18181818,15.80252524,86.217,3.378982727,Sorghum|Dusk|Cold day 1|3
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,3,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-2.0,65.0,185.0,35.13513514,15.80252524,86.217,27.45544856,Sorghum|Dusk|Cold day 1|3
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,3,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-2.0,61.0,196.0,31.12244898,15.80252524,86.217,21.75678195,Sorghum|Dusk|Cold day 1|3
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,3,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-2.2,118.0,158.0,74.6835443,15.80252524,86.217,83.62061815,Sorghum|Dusk|Cold day 1|3
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,3,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-2.2,112.0,211.0,53.08056872,15.80252524,86.217,52.94088127,Sorghum|Dusk|Cold day 1|3
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,3,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-2.5,125.0,195.0,64.1025641,15.80252524,86.217,68.59390633,Sorghum|Dusk|Cold day 1|3
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,3,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-2.5,130.0,168.0,77.38095238,15.80252524,86.217,87.45137608,Sorghum|Dusk|Cold day 1|3
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,3,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-2.75,127.0,156.0,81.41025641,15.80252524,86.217,93.17364277,Sorghum|Dusk|Cold day 1|3
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,3,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-2.75,121.0,173.0,69.94219653,15.80252524,86.217,76.88713361,Sorghum|Dusk|Cold day 1|3
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,3,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-3.0,138.0,165.0,83.63636364,15.80252524,86.217,96.33507688,Sorghum|Dusk|Cold day 1|3
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,3,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-3.0,143.0,168.0,85.11904762,15.80252524,86.217,98.44072915,Sorghum|Dusk|Cold day 1|3
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,3,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-3.5,145.0,175.0,82.85714286,15.80252524,86.217,95.22845671,Sorghum|Dusk|Cold day 1|3
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,3,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-3.5,132.0,153.0,86.2745098,15.80252524,86.217,100.0816733,Sorghum|Dusk|Cold day 1|3
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,3,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-4.0,150.0,173.0,86.70520231,15.80252524,86.217,100.6933266,Sorghum|Dusk|Cold day 1|3
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,3,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 3,-4.0,162.0,167.0,97.00598802,15.80252524,86.217,115.3221167,Sorghum|Dusk|Cold day 1|3
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,4,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,0.0,36.0,206.0,17.47572816,16.836433,96.549,0.8020004623,Sorghum|Dusk|Cold day 1|4
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,4,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,0.0,34.0,198.0,17.17171717,16.836433,96.549,0.4206164534,Sorghum|Dusk|Cold day 1|4
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,4,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-1.0,32.0,167.0,19.16167665,16.836433,96.549,2.917035211,Sorghum|Dusk|Cold day 1|4
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,4,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-1.0,41.0,152.0,26.97368421,16.836433,96.549,12.717256,Sorghum|Dusk|Cold day 1|4
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,4,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-1.5,56.0,211.0,26.54028436,16.836433,96.549,12.17355271,Sorghum|Dusk|Cold day 1|4
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,4,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-1.5,61.0,193.0,31.60621762,16.836433,96.549,18.52880314,Sorghum|Dusk|Cold day 1|4
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,4,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-2.0,72.0,190.0,37.89473684,16.836433,96.549,26.41779663,Sorghum|Dusk|Cold day 1|4
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,4,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-2.0,81.0,201.0,40.29850746,16.836433,96.549,29.43334451,Sorghum|Dusk|Cold day 1|4
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,4,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-2.2,121.0,163.0,74.23312883,16.836433,96.549,72.00457593,Sorghum|Dusk|Cold day 1|4
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,4,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-2.2,125.0,215.0,58.13953488,16.836433,96.549,51.81504428,Sorghum|Dusk|Cold day 1|4
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,4,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-2.5,128.0,200.0,64.0,16.836433,96.549,59.16704075,Sorghum|Dusk|Cold day 1|4
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,4,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-2.5,132.0,173.0,76.30057803,16.836433,96.549,74.59820612,Sorghum|Dusk|Cold day 1|4
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,4,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-2.75,112.0,161.0,69.56521739,16.836433,96.549,66.14864679,Sorghum|Dusk|Cold day 1|4
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,4,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-2.75,140.0,179.0,78.2122905,16.836433,96.549,76.99646343,Sorghum|Dusk|Cold day 1|4
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,4,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-3.0,152.0,170.0,89.41176471,16.836433,96.549,91.04628597,Sorghum|Dusk|Cold day 1|4
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,4,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-3.0,140.0,186.0,75.2688172,16.836433,96.549,73.30385459,Sorghum|Dusk|Cold day 1|4
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,4,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-3.5,160.0,180.0,88.88888889,16.836433,96.549,90.39033442,Sorghum|Dusk|Cold day 1|4
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,4,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-3.5,147.0,158.0,93.03797468,16.836433,96.549,95.59539299,Sorghum|Dusk|Cold day 1|4
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,4,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-4.0,180.0,178.0,101.1235955,16.836433,96.549,105.7388636,Sorghum|Dusk|Cold day 1|4
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,4,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 4,-4.0,161.0,172.0,93.60465116,16.836433,96.549,96.30629279,Sorghum|Dusk|Cold day 1|4
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,5,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,0.0,31.0,201.0,15.42288557,15.74498871,92.119,-0.421744425,Sorghum|Dusk|Cold day 1|5
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,5,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,0.0,28.0,193.0,14.50777202,15.74498871,92.119,-1.619944619,Sorghum|Dusk|Cold day 1|5
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,5,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-1.0,25.0,166.0,15.06024096,15.74498871,92.119,-0.8965716629,Sorghum|Dusk|Cold day 1|5
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,5,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-1.0,23.0,151.0,15.23178808,15.74498871,92.119,-0.6719571472,Sorghum|Dusk|Cold day 1|5
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,5,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-1.5,35.0,140.0,25.0,15.74498871,92.119,12.11801127,Sorghum|Dusk|Cold day 1|5
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,5,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-1.5,32.0,150.0,21.33333333,15.74498871,92.119,7.31707623,Sorghum|Dusk|Cold day 1|5
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,5,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-2.0,63.0,130.0,48.46153846,15.74498871,92.119,42.8372809,Sorghum|Dusk|Cold day 1|5
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,5,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-2.0,60.0,140.0,42.85714286,15.74498871,92.119,35.49918839,Sorghum|Dusk|Cold day 1|5
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,5,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-2.2,115.0,140.0,82.14285714,15.74498871,92.119,86.93777806,Sorghum|Dusk|Cold day 1|5
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,5,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-2.2,98.0,120.0,81.66666667,15.74498871,92.119,86.31428001,Sorghum|Dusk|Cold day 1|5
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,5,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-2.5,124.0,145.0,85.51724138,15.74498871,92.119,91.35601429,Sorghum|Dusk|Cold day 1|5
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,5,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-2.5,109.0,130.0,83.84615385,15.74498871,92.119,89.16798265,Sorghum|Dusk|Cold day 1|5
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,5,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-2.75,120.0,130.0,92.30769231,15.74498871,92.119,100.2470635,Sorghum|Dusk|Cold day 1|5
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,5,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-2.75,127.0,140.0,90.71428571,15.74498871,92.119,98.16074308,Sorghum|Dusk|Cold day 1|5
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,5,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-3.0,128.0,140.0,91.42857143,15.74498871,92.119,99.09599017,Sorghum|Dusk|Cold day 1|5
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,5,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-3.0,145.0,160.0,90.625,15.74498871,92.119,98.0438372,Sorghum|Dusk|Cold day 1|5
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,5,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-3.5,151.0,170.0,88.82352941,15.74498871,92.119,95.68508903,Sorghum|Dusk|Cold day 1|5
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,5,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-3.5,157.0,160.0,98.125,15.74498871,92.119,107.8639316,Sorghum|Dusk|Cold day 1|5
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,5,1,S1,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-4.0,163.0,167.0,97.60479042,15.74498871,92.119,107.1827973,Sorghum|Dusk|Cold day 1|5
+Sorghum,Dusk,Cold day 1,Sorghum dusk cold day 1,5,2,S2,sorghum_Ionleakage_dusk_corrected.xlsx,SET 5,-4.0,169.0,170.0,99.41176471,15.74498871,92.119,109.5487517,Sorghum|Dusk|Cold day 1|5

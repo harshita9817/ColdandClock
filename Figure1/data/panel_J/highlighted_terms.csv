@@ -1,0 +1,30 @@
+go_id,go_name,DAWN_signed_log10_padj,DUSK_signed_log10_padj,plot_group,significant_DAWN,significant_DUSK,orientation_at_both_times
+GO:0009765,"photosynthesis, light harvesting",1.5060383810160451,-1.8094248453377475,Light harvesting,True,True,
+GO:0015977,carbon fixation,0.618764672594119,0.0,Photosynthesis,False,False,
+GO:0015979,photosynthesis,1.2500049131633229,-0.34604161659711696,Photosynthesis,False,False,
+GO:0019685,"photosynthesis, dark reaction",0.29004696682085035,0.0,Photosynthesis,False,False,
+GO:0019684,"photosynthesis, light reaction",0.7516787202870916,-0.9413509086121922,Photosynthesis,False,False,
+GO:0009767,photosynthetic electron transport chain,0.31282896048051456,-0.373695062317539,Photosynthesis,False,False,
+GO:0009773,photosynthetic electron transport in photosystem I,0.6112965908728536,-0.37947920314246514,Photosynthesis,False,False,
+GO:0010207,photosystem II assembly,1.1340632764633796,-0.8933633628627213,Photosynthesis,False,False,
+GO:0010109,regulation of photosynthesis,0.623211822412166,-0.7884172841661867,Photosynthesis,False,False,
+GO:0042548,"regulation of photosynthesis, light reaction",0.0,-0.6329455232276957,Photosynthesis,False,False,
+GO:1901259,chloroplast rRNA processing,-1.2485039949531846,5.392809204537055,Ribosomal,False,True,
+GO:0000460,maturation of 5.8S rRNA,-1.9104507639791748,3.2555440787163348,Ribosomal,True,True,
+GO:0000466,"maturation of 5.8S rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)",-2.1008980647871134,2.9516599591593677,Ribosomal,True,True,
+GO:0000470,maturation of LSU-rRNA,-1.9124652263930588,3.7532594449735774,Ribosomal,True,True,DAWN down / DUSK up
+GO:0000463,"maturation of LSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)",-0.3019978803686269,2.2357255083081333,Ribosomal,False,True,
+GO:0030490,maturation of SSU-rRNA,-2.9882525782957226,3.9689816812788408,Ribosomal,True,True,
+GO:0000462,"maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)",-2.174730759212593,3.5910403773568076,Ribosomal,True,True,
+GO:0016075,rRNA catabolic process,-0.15404325549951525,2.452220262839011,Ribosomal,False,True,
+GO:0031167,rRNA methylation,-0.6638004636317623,2.0557958889364056,Ribosomal,False,True,
+GO:0000154,rRNA modification,-2.0371483699686976,5.718842836137698,Ribosomal,True,True,DAWN down / DUSK up
+GO:0006364,rRNA processing,-13.048260626075185,28.557977694426068,Ribosomal,True,True,DAWN down / DUSK up
+GO:0022613,ribonucleoprotein complex biogenesis,-16.93889623585242,29.28230676514356,Ribosomal,True,True,DAWN down / DUSK up
+GO:0000027,ribosomal large subunit assembly,-0.29230746806414615,2.7357272284159184,Ribosomal,False,True,
+GO:0042273,ribosomal large subunit biogenesis,-5.36705328920642,7.435169354099121,Ribosomal,True,True,
+GO:0000028,ribosomal small subunit assembly,-2.4225961092851698,1.2002032811432886,Ribosomal,True,False,
+GO:0042274,ribosomal small subunit biogenesis,-4.727376514385261,4.158369060795783,Ribosomal,True,True,
+GO:0000054,ribosomal subunit export from nucleus,-0.5968862373884587,0.597967413215651,Ribosomal,False,False,
+GO:0042255,ribosome assembly,-3.613381361490495,5.232648356840722,Ribosomal,True,True,
+GO:0042254,ribosome biogenesis,-22.624834928224736,35.76318018942577,Ribosomal,True,True,DAWN down / DUSK up
