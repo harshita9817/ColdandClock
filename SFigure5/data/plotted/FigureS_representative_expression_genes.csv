@@ -1,0 +1,12 @@
+"gene_id","hours_after_onset","called_category","category_q_value","selection_reason","facet"
+"Sobic.004G211900",27,"shared_induction",3.97273312375708e-05,"lowest category BH q; tie by largest absolute DAWN-DUSK difference","27 h
+Shared
+Sobic.004G211900"
+"Sobic.004G068700",27,"dawn_specific_induction",0.00138628392191124,"lowest category BH q; tie by largest absolute DAWN-DUSK difference","27 h
+Dawn-specific
+Sobic.004G068700"
+"Sobic.001G298400",27,"dusk_specific_induction",7.24039965472491e-05,"lowest category BH q; tie by largest absolute DAWN-DUSK difference","27 h
+Dusk-specific
+Sobic.001G298400"
+"Sobic.004G338000",27,"dusk_specific_induction",0.00477583823405335,"pre-specified SbPPCK1 biological example","SbPPCK1
+Sobic.004G338000"
